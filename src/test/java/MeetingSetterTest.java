@@ -43,7 +43,7 @@ class MeetingSetterTest
         Assertions.assertEquals(new Hours(LocalTime.of(9, 0), LocalTime.of(9, 15)),actualMeetings.get(0));
     }
     @Test
-    public void shouldReturnCorrectAmountOfMeeting2() {
+    public void shouldReturnCorrectAmountOfMeeting1() {
         //given
         Calendar calendar1 = calendar1();
         Calendar calendar2 = calendar4();

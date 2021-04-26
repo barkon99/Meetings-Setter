@@ -42,7 +42,7 @@ public class MeetingSetter
             LocalTime endFreeTime = freeTerms1.get(i).getEnd();
 
             //iteruje po drugim kalendarzu
-            for (int j = 0; j < freeTerms1.size(); j++)
+            for (int j = 0; j < freeTerms2.size(); j++)
             {
                 LocalTime startFreeTime2 = freeTerms2.get(j).getStart();
                 LocalTime endFreeTime2 = freeTerms2.get(j).getEnd();
